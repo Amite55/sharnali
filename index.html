@@ -1,0 +1,486 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sharnali Chowdhury Puja | Nursing Student & Artist</title>
+    <meta
+      name="description"
+      content="Portfolio of Sharnali Chowdhury Puja – 3rd Year Nursing Student at Enan Medical College, singer, and dancer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600;700&family=Dancing+Script:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ===== PARTICLE CANVAS ===== -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar" id="navbar">
+      <div class="nav-brand">
+        <span class="brand-cursive">Sharnali</span>
+      </div>
+      <div class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li>
+          <a href="#home" class="nav-link active" data-section="home">Home</a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link" data-section="about">About</a>
+        </li>
+        <li>
+          <a href="#education" class="nav-link" data-section="education"
+            >Education</a
+          >
+        </li>
+        <li><a href="#arts" class="nav-link" data-section="arts">Arts</a></li>
+        <li>
+          <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+      <div class="hero-bg-overlay"></div>
+      <img src="images/hero_bg.png" alt="Hero Background" class="hero-bg-img" />
+
+      <div class="hero-content" data-aos="fade-up">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          <span>Nursing Student · Artist · Dreamer</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="hero-name-main">Sharnali Chowdhury</span>
+          <span class="hero-name-accent">Puja</span>
+        </h1>
+        <p class="hero-subtitle">
+          3rd Year B.Sc Nursing · Enan Medical College<br />
+          <span class="hero-tagline"
+            >Healing Hands. Melodic Soul. Dancing Spirit.</span
+          >
+        </p>
+        <div class="hero-buttons">
+          <a href="#about" class="btn btn-primary" id="hero-cta"
+            >Get to Know Me</a
+          >
+          <a href="#arts" class="btn btn-outline">My Passions</a>
+        </div>
+      </div>
+
+      <div class="hero-scroll-indicator">
+        <div class="scroll-line"></div>
+        <span>Scroll</span>
+      </div>
+
+      <!-- Floating cards -->
+      <div class="floating-card card-1">
+        <span class="card-icon">🎓</span>
+        <span>3rd Year Nursing</span>
+      </div>
+      <div class="floating-card card-2">
+        <span class="card-icon">🎵</span>
+        <span>Singer</span>
+      </div>
+      <div class="floating-card card-3">
+        <span class="card-icon">💃</span>
+        <span>Dancer</span>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <p class="section-label">Who I Am</p>
+          <h2 class="section-title">About <span class="highlight">Me</span></h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-image-col" data-aos="fade-right">
+            <div class="profile-frame">
+              <div class="profile-ring ring-1"></div>
+              <div class="profile-ring ring-2"></div>
+              <div class="profile-img-wrapper">
+                <img
+                  src="images/profile.png"
+                  alt="Sharnali Chowdhury Puja"
+                  class="profile-img"
+                  id="profile-img"
+                />
+                <div class="profile-img-overlay">
+                  <span class="camera-icon">📷</span>
+                  <span>Sharnali Chowdhury Puja</span>
+                </div>
+              </div>
+              <div class="profile-badge"><span>✨</span> Sharnali Puja</div>
+            </div>
+          </div>
+
+          <div class="about-text-col" data-aos="fade-left">
+            <h3 class="about-greeting">
+              Hello, I'm <span class="accent">Sharnali!</span>
+            </h3>
+            <p class="about-bio">
+              I am a passionate 3rd-year B.Sc Nursing student at
+              <strong>Enan Medical College</strong>, driven by a deep desire to
+              make a difference in people's lives through compassionate care.
+              With an outstanding academic track record, I strive to be both a
+              skilled healthcare professional and an inspiring human being.
+            </p>
+            <p class="about-bio">
+              Beyond the wards and textbooks, my heart beats for music and dance
+              — be it the timeless verses of <em>Rabindra Sangeet</em> or the
+              rhythm of a folk melody. I believe art and medicine together hold
+              the power to truly heal.
+            </p>
+
+            <div class="about-stats">
+              <div class="stat-card">
+                <span class="stat-number" data-target="3">0</span>
+                <span class="stat-label">Year of Nursing</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number star-rating">⭐⭐⭐</span>
+                <span class="stat-label">Academic Results</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-number">∞</span>
+                <span class="stat-label">Passion for Arts</span>
+              </div>
+            </div>
+
+            <div class="about-tags">
+              <span class="tag">🩺 Nursing</span>
+              <span class="tag">🎶 Rabindra Sangeet</span>
+              <span class="tag">💃 Classical Dance</span>
+              <span class="tag">🌸 Compassionate Care</span>
+              <span class="tag">🎤 Vocalist</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <p class="section-label">My Journey</p>
+          <h2 class="section-title">
+            Education & <span class="highlight">Academics</span>
+          </h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="timeline" data-aos="fade-up">
+          <!-- Current -->
+          <div class="timeline-item current" data-aos="fade-right">
+            <div class="timeline-dot">
+              <span class="dot-inner pulse"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge current-badge">Currently Studying</div>
+              <div class="timeline-icon">🏥</div>
+              <h3 class="timeline-title">B.Sc in Nursing</h3>
+              <p class="timeline-institution">Enan Medical College</p>
+              <p class="timeline-detail">
+                3rd Year · Pursuing Excellence in Healthcare
+              </p>
+              <div class="timeline-result excellent">
+                <span>📊</span> Outstanding Academic Performance
+              </div>
+            </div>
+          </div>
+
+          <!-- HSC -->
+          <div class="timeline-item" data-aos="fade-left">
+            <div class="timeline-dot">
+              <span class="dot-inner"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge">HSC Completed</div>
+              <div class="timeline-icon">📚</div>
+              <h3 class="timeline-title">Higher Secondary Certificate (HSC)</h3>
+              <p class="timeline-institution">
+                Abdul Kadir Mollah City College
+              </p>
+              <p class="timeline-detail">
+                Science Group · Strong Academic Foundation
+              </p>
+              <div class="timeline-result good">
+                <span>🌟</span> Excellent Result
+              </div>
+            </div>
+          </div>
+
+          <!-- SSC -->
+          <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-dot">
+              <span class="dot-inner"></span>
+            </div>
+            <div class="timeline-card">
+              <div class="timeline-badge">SSC Completed</div>
+              <div class="timeline-icon">🏫</div>
+              <h3 class="timeline-title">Secondary School Certificate (SSC)</h3>
+              <p class="timeline-institution">
+                Kapasia Govt. Pilot High School
+              </p>
+              <p class="timeline-detail">
+                Early Academic Excellence · Strong Foundation
+              </p>
+              <div class="timeline-result good">
+                <span>🌟</span> Very Good Result
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Skills bar -->
+        <div class="skills-section" data-aos="fade-up">
+          <h3 class="skills-title">Academic & Professional Skills</h3>
+          <div class="skills-grid">
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>Patient Care</span>
+                <span class="skill-pct">92%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="92"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>Medical Knowledge</span>
+                <span class="skill-pct">88%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="88"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>Clinical Practice</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-label">
+                <span>Communication</span>
+                <span class="skill-pct">95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-fill" data-width="95"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ARTS & CULTURE SECTION ===== -->
+    <section class="section arts-section" id="arts">
+      <img src="images/arts_bg.png" alt="Arts Background" class="arts-bg-img" />
+      <div class="arts-overlay"></div>
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <p class="section-label" style="color: #ffd6ec">My Passions</p>
+          <h2 class="section-title" style="color: #fff">
+            Arts & <span class="highlight-gold">Culture</span>
+          </h2>
+          <div class="section-divider gold"></div>
+        </div>
+
+        <div class="arts-grid">
+          <!-- Singing -->
+          <div class="art-card" data-aos="zoom-in" data-aos-delay="0">
+            <div class="art-card-glow"></div>
+            <div class="art-icon-wrap">
+              <div class="art-icon-bg music-bg"></div>
+              <span class="art-icon">🎵</span>
+            </div>
+            <h3 class="art-title">Vocal Artist</h3>
+            <p class="art-desc">
+              Sharnali has a beautiful gift of voice. She specializes in
+              <strong>Rabindra Sangeet</strong>, the timeless poetry of
+              Rabindranath Tagore, as well as Bangla folk songs, modern Bangla
+              hits, and all genres of music.
+            </p>
+            <div class="art-tags">
+              <span>Rabindra Sangeet</span>
+              <span>Bangla Folk</span>
+              <span>Modern Bangla</span>
+              <span>All Genres</span>
+            </div>
+            <div class="music-wave">
+              <span></span><span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+
+          <!-- Dancing -->
+          <div class="art-card" data-aos="zoom-in" data-aos-delay="150">
+            <div class="art-card-glow dance-glow"></div>
+            <div class="art-icon-wrap">
+              <div class="art-icon-bg dance-bg"></div>
+              <span class="art-icon">💃</span>
+            </div>
+            <h3 class="art-title">Dancer</h3>
+            <p class="art-desc">
+              An expressive dancer, Sharnali has actively participated in
+              numerous
+              <strong>cultural programs and events</strong> at Enan Medical
+              College campus, captivating audiences with her graceful
+              performances.
+            </p>
+            <div class="art-tags">
+              <span>Classical</span>
+              <span>Folk Dance</span>
+              <span>Campus Events</span>
+              <span>Cultural Shows</span>
+            </div>
+            <div class="dance-particles">
+              <span>✨</span><span>💫</span><span>🌸</span><span>⭐</span
+              ><span>✨</span>
+            </div>
+          </div>
+
+          <!-- Campus Life -->
+          <div class="art-card" data-aos="zoom-in" data-aos-delay="300">
+            <div class="art-card-glow campus-glow"></div>
+            <div class="art-icon-wrap">
+              <div class="art-icon-bg campus-bg"></div>
+              <span class="art-icon">🌟</span>
+            </div>
+            <h3 class="art-title">Campus Leader</h3>
+            <p class="art-desc">
+              Actively involved in campus cultural programs at Enan Medical
+              College, Sharnali leads by example — showing that a great nurse is
+              also a
+              <strong>vibrant, well-rounded individual</strong> with a passion
+              for life.
+            </p>
+            <div class="art-tags">
+              <span>Cultural Club</span>
+              <span>Campus Events</span>
+              <span>Leadership</span>
+              <span>Community</span>
+            </div>
+            <div class="star-burst">
+              <span>⭐</span><span>🌟</span><span>✨</span><span>💖</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header" data-aos="fade-up">
+          <p class="section-label">Say Hello</p>
+          <h2 class="section-title">
+            Get in <span class="highlight">Touch</span>
+          </h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-info" data-aos="fade-right">
+            <h3 class="contact-subtitle">Let's Connect!</h3>
+            <p class="contact-intro">
+              Whether you want to collaborate, chat about music, or just say hi
+              — Sharnali would love to hear from you! 🌸
+            </p>
+
+            <div class="contact-cards">
+              <div class="contact-card">
+                <div class="contact-card-icon">📍</div>
+                <div>
+                  <p class="contact-card-label">Present Address</p>
+                  <p class="contact-card-value">Narayanganj, Dhaka</p>
+                </div>
+              </div>
+              <div class="contact-card">
+                <div class="contact-card-icon">🏡</div>
+                <div>
+                  <p class="contact-card-label">Permanent Address</p>
+                  <p class="contact-card-value">Chandpur, Bangladesh</p>
+                </div>
+              </div>
+              <div class="contact-card">
+                <div class="contact-card-icon">🏥</div>
+                <div>
+                  <p class="contact-card-label">Institution</p>
+                  <p class="contact-card-value">Enan Medical College</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap" data-aos="fade-left">
+            <form class="contact-form" id="contact-form">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" placeholder="Enter your name" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="your@email.com" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  rows="5"
+                  placeholder="Write your message here..."
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="btn btn-primary btn-full"
+                id="send-btn"
+              >
+                <span class="btn-text">Send Message 💌</span>
+                <span class="btn-loader hidden">Sending...</span>
+              </button>
+              <div class="form-success hidden" id="form-success">
+                ✅ Message sent! Thank you for reaching out.
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="footer-name">Sharnali Chowdhury Puja</p>
+        <p class="footer-tagline">Nurse · Singer · Dancer · Dreamer</p>
+        <div class="footer-divider"></div>
+        <p class="footer-copy">
+          Made with 💖 | © 2025 Sharnali Chowdhury Puja. All Rights Reserved.
+        </p>
+      </div>
+      <!-- Animated hearts -->
+      <div class="footer-hearts">
+        <span>💖</span><span>🌸</span><span>💖</span><span>🌸</span
+        ><span>💖</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
